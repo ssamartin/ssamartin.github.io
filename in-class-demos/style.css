@@ -1,0 +1,28 @@
+/*
+font-family:font-family: 'Krub', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+*/
+body{font-family: 'IBM Plex Serif', serif;}
+h1{font-family: 'Krub', sans-serif;}
+
+.grid-demo{
+
+}
+.grid-demo section {
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-gap: 20px
+}
+.grid-demo div {
+  border: 1px solid black;
+  grid-gap:20px
+}
+
+.grid-demo .feature{
+  background-color: aqua;
+}
+.grid-demo .feature {
+  grid-column:  2/4;
+  grid-row: 1/3;
+  font-weight: bolder;
+}
