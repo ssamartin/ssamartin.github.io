@@ -1,0 +1,15 @@
+body {
+  font-family: 'Times New Roman';
+  background-color: #FF6E59;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #cf0a2c;
+}
+div {text-align: center;}
