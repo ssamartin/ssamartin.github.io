@@ -1,4 +1,4 @@
-/*
+*
 font-family:font-family: 'Krub', sans-serif;
 font-family: 'IBM Plex Serif', serif;
 */
@@ -10,7 +10,7 @@ h1{font-family: 'Krub', sans-serif;}
 }
 .grid-demo section {
 display: grid;
-grid-template-columns: repeat(5,1fr);
+grid-template-columns: repeat(3,1fr);
 grid-gap: 20px
 }
 .grid-demo div {
@@ -19,10 +19,18 @@ grid-gap: 20px
 }
 
 .grid-demo .feature{
-  background-color: aqua;
+  background-color:beige;
 }
 .grid-demo .feature {
   grid-column:  2/4;
   grid-row: 1/3;
-  font-weight: bolder;
+  font-weight:bolder;
+  font-size: 85px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Krub', sans-serif;
+  background-color: #9ED5E8;
+  color: black;
 }
