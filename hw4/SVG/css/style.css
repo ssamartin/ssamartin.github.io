@@ -1,0 +1,25 @@
+.type-box{align-content: center;}
+
+.type-box{
+  width:400px;
+  margin: 100px;
+}
+.type-box{
+  animation-name: type-rotate;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes type-rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #FFA4B1;
+  color: white;
+}
